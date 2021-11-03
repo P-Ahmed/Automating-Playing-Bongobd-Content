@@ -18,10 +18,4 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '4.0.0'
-
-    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.0.0'
-
-
-
 }

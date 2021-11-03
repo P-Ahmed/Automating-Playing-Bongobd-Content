@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class PlayingContentAutomatically {
     WebDriver driver;
     @Before
-    public void setup(){
+    public void Setup(){
         System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver.exe");
         FirefoxOptions ops = new FirefoxOptions();
         ops.addArguments("--headed");
@@ -37,7 +37,7 @@ public class PlayingContentAutomatically {
 
     }
     @After
-    public void finishTest(){
+    public void FinishTest(){
         driver.close();
     }
 }
